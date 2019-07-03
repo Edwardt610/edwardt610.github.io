@@ -44,6 +44,14 @@
   #website {
     overflow-x: hidden;
   }
+
+  .infoImg img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    max-height: 100%;
+    max-width: 100%;
+  }
 </style>
 
 <body id="page-top">
@@ -86,8 +94,8 @@
             <hr class="divider my-4">
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 font-weight-light mb-5">A university student who passionate and willing to learn in
-              different I.T. fields</p>
+            <p class="text-white-75 font-weight-light mb-5">A self-motiviated university student who is passionate and willing to learn in
+              different I.T. fields. Especially in Web-development and Information Security</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#skill">What kind of skills I have?</a>
           </div>
         </div>
@@ -141,7 +149,7 @@
         <h2 class="text-center mt-0">Educations</h2>
         <hr class="divider my-4">
         <div class="row">
-          <div class="col text-center">
+          <div class="col text-center mt-5 infoImg">
             <img class="img-fluid" src="img/education/hkbu.png" alt="">
           </div>
           <div class="col text-center mt-5">
@@ -155,7 +163,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col text-center mt-5">
+          <div class="col text-center mt-5 infoImg">
             <img class="img-fluid" src="img/education/cccu.jpg" alt="">
           </div>
           <div class="col text-center">
@@ -183,10 +191,12 @@
         <h2 class="text-center mt-0">Past Projects</h2>
         <hr class="divider my-4">
         <div class="row">
-          <div class="col text-left pb-auto">
+          <!--<div class="col text-left pb-auto infoImg">-->
+          <div class="col text-center mt-5 infoImg">
+
             <img class="img-fluid" src="img/projects/cp2joylogo.png" alt="Responsive image">
           </div>
-          <div class="col mt-5">
+          <div class="col mt-5 d-block">
             <div class="text-left mt-5">
               <h3 class="h4 mb-2">CP2Joy Promotional Website</h3>
               <p class="text mb-1">Role: Project Manager</p>
@@ -197,19 +207,20 @@
           </div>
         </div>
         <!--<hr class="divider my-4">-->
+        <br>
+        <br>
         <div class="row">
-          <div class="col text- pb-auto">
-            <img class="img-fluid rounded" src="img/projects/towngaslogo.png" alt="Responsive image">
+          <div class="col text-center infoImg">
+            <!--<img class="img-fluid rounded" src="img/projects/towngaslogo.png" alt="Responsive image">-->
+            <img class="img-fluid d-block" src="img/projects/towngaslogo.png" alt="Responsive image">
           </div>
-          <div class="col mt-5">
-            <div class="text-left mt-5">
-              <h3 class="h4 mb-2">Event Management System</h3>
-              <p class="text mb-1">Role: Business Analyst</p>
-              <p class="text mb-1">Cooperate with The Hong Kong and China Gas Company Limited (Towngas)</p>
-              <p class="text mb-1">Record Management System</p>
-              <p class="text mb-1">Data Visualization</p>
-              <p class="text mb-1">Accessiable with mobile, tablets and PC</p>
-            </div>
+          <div class="col text-left mt-5">
+            <h3 class="h4 mb-2">Event Management System</h3>
+            <p class="text mb-1">Role: Business Analyst</p>
+            <p class="text mb-1">Cooperate with The Hong Kong and China Gas Company Limited (Towngas)</p>
+            <p class="text mb-1">Record Management System</p>
+            <p class="text mb-1">Data Visualization</p>
+            <p class="text mb-1">Accessiable with mobile, tablets and PC</p>
           </div>
         </div>
         <br>
